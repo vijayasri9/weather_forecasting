@@ -3,7 +3,7 @@
 
     document.getElementById('inp').value =''
 
-  fetch(`http://api.weatherapi.com/v1/current.json?key=235d62528ee8420eb89165130252008&q=${city}`)
+  fetch(`https://api.weatherapi.com/v1/current.json?key=235d62528ee8420eb89165130252008&q=${city}`)
       .then((res)=>res.json())
       .then((data)=>{
         console.log(data)
@@ -47,5 +47,6 @@ else if (condition == "Partly cloudy") {
   alert("City not found. Please try again.");
 });
 }
+
 
 
