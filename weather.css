@@ -1,0 +1,104 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    background-image:url("bg1.png");
+    width:100%;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position:relative ;
+    
+}
+
+#weather{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    row-gap: 20px;
+   
+
+}
+
+#inp{
+    
+     height:40px;
+     width:230px;
+     border: none;
+     border-radius:10px ;
+     color:#363535;
+     font-size: 18px;
+     font-weight:500px;
+     padding-left:10px;
+}
+
+button{
+     height:40px;
+     border-radius:10px;
+     border:2px solid aliceblue;
+     color:rgb(1, 1, 47);
+     font-size: 16px;
+     font-weight:600px;
+     background-color: rgb(255, 255, 255);
+     width:fit-content;
+     cursor:pointer;
+     padding:5px;  
+}
+
+h1{
+
+   background:linear-gradient(aliceblue,rgba(255, 247, 0, 0.902)) ;
+   color: transparent;
+   background-clip: text;
+   font-size:2.5em;
+}
+
+#data{
+
+  height:52vh;
+  background-color: rgba(229, 228, 252, 0.498);
+  width:70vh;
+  border:none;
+  border-radius:10px ;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  row-gap: 5px;
+  
+
+
+}
+
+#data>p{
+
+  height:8vh;
+  background-color: rgba(1, 27, 66, 0.879);
+  border:none;
+  border-radius:10px ;
+  align-items: center;
+  justify-content:center;
+  font-size:17px;
+  color:rgb(255, 255, 255);
+  display: flex;
+  
+}
+
+img{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
