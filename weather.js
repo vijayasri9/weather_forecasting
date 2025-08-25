@@ -43,6 +43,9 @@ else if (condition == "Partly cloudy") {
         document.getElementById('weatherGif').style.width = "140px"
         document.getElementById('wind').innerHTML = `Wind speed = ${data.current.wind_kph}`
     })
-    .catch(()=>{alert('Please enter a valid location')})
+    .catch(error => {
+  alert("City not found. Please try again.");
+});
 }
+
 
